@@ -35,7 +35,7 @@ typedef struct rad_head{
     uint8_t code;
     uint8_t id;
     uint16_t length;
-    uint8_t auth[16];
+    uint8_t auth[32];
 }rad_head;
 typedef struct rad_attr{
     int vendor;
